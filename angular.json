@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "netlify-deployment": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "netlify-deployment"
+    }
+  },
+  "defaultProject": "netlify-deployment",
+  "cli": {
+    "analytics": "d6753531-42ee-4c73-b7a7-60de7bd512d5"
+  }
 }
